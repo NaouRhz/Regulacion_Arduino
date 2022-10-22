@@ -13,18 +13,5 @@ void loop() {
       Serial.println(results.fx[i]);
     }
 }
-  
-
-  /*float coefficient[6] = {5, 2};
-  float data[DATA_NUM];
-
-  mathFun(1, coefficient, data, 1.0, DATA_NUM);
-  if(Serial.available())    
-  if(printOnce){
-    for (int i=0; i<DATA_NUM; i++){
-      Serial.println(data[i]);
-    }
-    printOnce^=printOnce;
-  }*/ 
 }
 
