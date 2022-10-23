@@ -11,8 +11,8 @@ typedef struct{
 
 
 float get_FloatUART();
-float* get_cmdValues(String cmd, String separator);
-results_t mathFun(float* ptrParameters);
+float* get_cmdValues(String cmd);
+float* get_PolynoImages(int degree, float* coeffi, int images_num, float inc);
 results_t get_ImagFunctions();
 
 #endif /*   FUNCTIONS_H   */
